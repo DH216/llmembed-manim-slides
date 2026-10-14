@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Môi trường ảo (Virtual environments)
+.venv/
+venv/
+ENV/
+env/
+
+# Manim output and cache
+media/
+slides/
+*.mp4
+*.png
+*.html
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Hệ điều hành (OS files)
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Logs
+*.log
+
+# Môi trường bảo mật (Environment variables)
+.env
+.env.local

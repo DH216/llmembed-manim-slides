@@ -1,0 +1,5 @@
+# Phụ thuộc Python cho Manim Slides (LLMEmbed ACL 2024)
+# Khuyến nghị ghim manim==0.19.0 để tương thích tốt nhất với manim-slides
+manim==0.19.0
+manim-slides>=5.7.0
+PySide6>=6.5.0
