@@ -1,0 +1,15 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Bash scripts must always use LF line endings for Linux/macOS compatibility
+*.sh text eol=lf
+
+# PowerShell and Batch scripts on Windows
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Source code files
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf

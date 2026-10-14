@@ -12,8 +12,11 @@ ORANGE = "#FB923C"
 PURPLE = "#A78BFA"
 RED = "#F87171"
 
-# Đặt tên font nếu máy bạn hiển thị tiếng Việt chưa đẹp, ví dụ "Be Vietnam Pro", "Arial".
-FONT = "Arial"
+import os
+
+# Đặt tên font: lấy từ biến môi trường MANIM_FONT nếu có.
+# Mặc định: dùng "Arial" trên Windows, None trên Linux/macOS để Pango tự nhận diện font hệ thống.
+FONT = os.getenv("MANIM_FONT", "Arial" if os.name == "nt" else None)
 
 
 def T(text, size=28, color=FG, **kw):
